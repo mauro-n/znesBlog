@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/posts.css">
+    <title>Zblog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-container">
+        <canvas id="canvas"></canvas>
+        <nav class="navbar">
+            <div class="nav--link">
+                <a href="#">Home</a>
+            </div>
+            <button id="expand-btn" class="nav--expand-btn">
+                opt
+            </button>
+            <div id="nav-content" class="navbar-content-wrapper collapse">
+                <div class="nav--link">
+                    <a href="/posts.html">Blog</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/posts.html">Carregar post</a>
+                            <hr>
+                            <a href="#">Categorias</a>
+                            <a href="#">Recentes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="/projetos.html">Projetos</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/projetos.html">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="#">Sobre</a>
+                </div>
+                <div class="nav--link">
+                    <a href="#">LogIn</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="">Registrar</a>
+                            <a href="">Recuperar Acesso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="posts-wrapper">
+        <div class="posts-loader">
+            <h1>
+                carregar post
+                <a href="/">
+                    <img src="./imgs/close.svg" class="close-btn">
+                </a>
+            </h1>
+            <div class="posts-loader--painels">
+                <div class="posts-loader--painel1">
+                    <h2>título do post</h2>
+                    <div class="posts-loader--painel">
+                        <a>..</a>
+                        <a href="./post.html">post exemplo 1</a>
+                    </div>
+                </div>
+                <div class="posts-loader--painel2">
+                    <h2>Categorias</h2>
+                    <div class="posts-loader--painel">
+                        <a>..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="posts-loader--footer">
+                <p class="posts-loader--footerp">
+                    [z:\blog\~home2\root\user\indexed\network\https:\\mauro-zblog.com\posts.html\all]
+                </p>
+                <div class="black-block"></div>
+                <p>[ opt: ]</p>
+                <div class="posts-loader--footer-text">
+                    <div>
+                        <p><span class="p-ball"></span>
+                            Ordenar por nome
+                        </p>
+                        <p><span class="p-ball"></span>
+                            Ordenar por data
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Você pode filtrar através da barra acima.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/function.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+    <title>Zblog</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <canvas id="canvas"></canvas>
+        <nav class="navbar">
+            <div class="nav--link">
+                <a href="#">Home</a>
+            </div>
+            <button id="expand-btn" class="nav--expand-btn">
+                opt
+            </button>
+            <div id="nav-content" class="navbar-content-wrapper collapse">
+                <div class="nav--link">
+                    <a href="/posts.html">Blog</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/posts.html">Carregar post</a>
+                            <hr>
+                            <a href="#">Categorias</a>
+                            <a href="#">Recentes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="/projetos.html">Projetos</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/projetos.html">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="#">Sobre</a>
+                </div>
+                <div class="nav--link">
+                    <a href="#">LogIn</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="">Registrar</a>
+                            <a href="">Recuperar Acesso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/function.js"></script>
+</body>
+
+</html>

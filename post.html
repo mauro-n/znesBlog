@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/posts.css">
+    <link rel="stylesheet" href="./css/post.css">
+    <title>Zblog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-container">
+        <canvas id="canvas"></canvas>
+        <nav class="navbar">
+            <div class="nav--link">
+                <a href="#">Home</a>
+            </div>
+            <button id="expand-btn" class="nav--expand-btn">
+                opt
+            </button>
+            <div id="nav-content" class="navbar-content-wrapper collapse">
+                <div class="nav--link">
+                    <a href="/posts.html">Blog</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/posts.html">Carregar post</a>
+                            <hr>
+                            <a href="#">Categorias</a>
+                            <a href="#">Recentes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="/projetos.html">Projetos</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="/projetos.html">Ver todos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--link">
+                    <a href="#">Sobre</a>
+                </div>
+                <div class="nav--link">
+                    <a href="#">LogIn</a>
+                    <div class="a-dropdown-wrapper">
+                        <div class="a-dropdown-spacing"></div>
+                        <div class="a-dropdown">
+                            <a href="">Registrar</a>
+                            <a href="">Recuperar Acesso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="posts-wrapper">
+        <div class="posts-loader">
+            <h1>
+                post exemplo 1
+                <a href="/">
+                    <img src="./imgs/close.svg" class="close-btn">
+                </a>
+            </h1>
+            <div class="posts-loader--painels">
+                <div class="posts-loader--painel-unique">
+                    <div class="posts-loader--painel">
+                        <h1>olá mundo</h1>
+                        <p>
+                            Uma pequena demonstração de como seria uma postagem, este blog feito para ser utilizado com
+                            wordpress. Cor de fundo e de texto alteradas para manter uma melhor legibilidade para esses
+                            posts
+                        </p>
+                        <h2>Novos desafios!</h2>
+                        <p>
+                            Adicionar seção de comentários para os usuários
+                            logados, depois temos que passar tudo para dentro
+                            da plataforma do Wordpress.
+                        </p>
+                        <p>Tenho também que experimentar com algumas
+                            fotos dentro das postagens.
+                        </p>
+                        <p>O sistema de votos também deve ser colocado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts-loader--footer">
+                <p class="posts-loader--footerp">
+                    [z:\blog\~home2\root\user\indexed\network\https:\\mauro-zblog.com\posts.html\all]
+                </p>
+                <div class="black-block"></div>
+                <p>[ comentários: 10 ]</p>
+                <div class="posts-loader--comments">
+                    <div class="posts-loader--comment">
+                        <h4>titulo do comentário</h4>
+                        <p>
+                            Texto do comentário,
+                            Texto de várias linhas,
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, culpa.
+                        </p>
+                        <p class="post-loader--comment-user">Joãozinho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/function.js"></script>
+</body>
+
+</html>
